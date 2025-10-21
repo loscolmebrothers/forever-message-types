@@ -3,8 +3,6 @@ export interface ContractBottle {
   ipfsHash: string;
   createdAt: Date;
   expiresAt: Date;
-  likeCount: number;
-  commentCount: number;
   isForever: boolean;
   exists: boolean;
 }
@@ -14,8 +12,6 @@ export interface RawContractBottle {
   ipfsHash: string;
   createdAt: bigint;
   expiresAt: bigint;
-  likeCount: bigint;
-  commentCount: bigint;
   isForever: boolean;
   exists: boolean;
 }

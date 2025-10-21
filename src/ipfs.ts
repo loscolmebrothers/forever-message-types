@@ -4,6 +4,8 @@ export interface IPFSBottle {
   userId: string;
   timestamp: number;
   createdAt: string;
+  likeCount?: number;
+  commentCount?: number;
 }
 
 export interface IPFSComment {

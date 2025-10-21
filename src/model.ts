@@ -5,6 +5,8 @@ export interface Bottle extends ContractBottle {
   userId: string;
   type: "bottle";
   timestamp: number;
+  likeCount: number;
+  commentCount: number;
 }
 
 export interface Comment extends ContractComment {
