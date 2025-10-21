@@ -1,4 +1,3 @@
-// Contract types
 export type {
   ContractBottle,
   RawContractBottle,
@@ -6,20 +5,11 @@ export type {
   RawContractComment,
 } from "./contract";
 
-// IPFS types
-export type {
-  IPFSBottle,
-  IPFSComment,
-  IPFSItem,
-  UploadResult,
-  IPFSError,
-  IPFSErrorCode,
-} from "./ipfs";
+export type { IPFSBottle, IPFSComment, IPFSItem, UploadResult } from "./ipfs";
+export { IPFSError, IPFSErrorCode } from "./ipfs";
 
-// Model types (combined for UI)
 export type { Bottle, Comment } from "./model";
 
-// User types
 export type {
   User,
   UserLimits,
