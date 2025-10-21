@@ -1,13 +1,13 @@
-export interface BottleContent {
-  content: string;
+export interface IPFSBottle {
+  message: string;
   type: "bottle";
   userId: string;
   timestamp: number;
   createdAt: string;
 }
 
-export interface CommentContent {
-  content: string;
+export interface IPFSComment {
+  message: string;
   type: "comment";
   bottleId: number;
   userId: string;
@@ -15,7 +15,7 @@ export interface CommentContent {
   createdAt: string;
 }
 
-export type IPFSContent = BottleContent | CommentContent;
+export type IPFSItem = IPFSBottle | IPFSComment;
 
 export interface UploadResult {
   cid: string;

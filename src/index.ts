@@ -1,20 +1,29 @@
-export type { Bottle, RawBottle, BottleWithContent } from "./domain/bottle";
+// Contract types
+export type {
+  ContractBottle,
+  RawContractBottle,
+  ContractComment,
+  RawContractComment,
+} from "./contract";
 
-export type { Comment, RawComment, CommentWithContent } from "./domain/comment";
+// IPFS types
+export type {
+  IPFSBottle,
+  IPFSComment,
+  IPFSItem,
+  UploadResult,
+  IPFSError,
+  IPFSErrorCode,
+} from "./ipfs";
 
+// Model types (combined for UI)
+export type { Bottle, Comment } from "./model";
+
+// User types
 export type {
   User,
   UserLimits,
   UserLike,
   UserSession,
   AuthState,
-} from "./domain/user";
-
-export type {
-  BottleContent,
-  CommentContent,
-  IPFSContent,
-  UploadResult,
-  IPFSError,
-  IPFSErrorCode,
-} from "./ipfs";
+} from "./user";
