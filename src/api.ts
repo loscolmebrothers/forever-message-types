@@ -1,3 +1,4 @@
+
 export interface CreateBottleRequest {
   content: string;
   userId: string;

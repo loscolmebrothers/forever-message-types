@@ -30,15 +30,8 @@ export type {
 export { IPFSError, IPFSErrorCode } from "./ipfs/content";
 
 export type {
-  ApiResponse,
-  PaginatedResponse,
-  ErrorResponse,
-  SuccessResponse,
-} from "./api/responses";
-
-export type {
   CreateBottleRequest,
   CreateCommentRequest,
   LikeBottleRequest,
   UnlikeBottleRequest,
-} from "./api/requests";
+} from "./api";
