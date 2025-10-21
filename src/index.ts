@@ -1,16 +1,6 @@
-export type {
-  Bottle,
-  RawBottle,
-  CreateBottleParams,
-  BottleWithContent,
-} from "./domain/bottle";
+export type { Bottle, RawBottle, BottleWithContent } from "./domain/bottle";
 
-export type {
-  Comment,
-  RawComment,
-  CreateCommentParams,
-  CommentWithContent,
-} from "./domain/comment";
+export type { Comment, RawComment, CommentWithContent } from "./domain/comment";
 
 export type {
   User,
@@ -25,13 +15,6 @@ export type {
   CommentContent,
   IPFSContent,
   UploadResult,
-} from "./ipfs/content";
-
-export { IPFSError, IPFSErrorCode } from "./ipfs/content";
-
-export type {
-  CreateBottleRequest,
-  CreateCommentRequest,
-  LikeBottleRequest,
-  UnlikeBottleRequest,
-} from "./api";
+  IPFSError,
+  IPFSErrorCode,
+} from "./ipfs";

@@ -14,12 +14,6 @@ export interface RawComment {
   exists: boolean;
 }
 
-export interface CreateCommentParams {
-  content: string;
-  bottleId: number;
-  userId: string;
-}
-
 export interface CommentWithContent extends Comment {
   content: string;
   userId: string;

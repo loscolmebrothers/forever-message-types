@@ -20,11 +20,6 @@ export interface RawBottle {
   exists: boolean;
 }
 
-export interface CreateBottleParams {
-  content: string;
-  userId: string;
-}
-
 export interface BottleWithContent extends Bottle {
   content: string;
   userId: string;
