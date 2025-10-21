@@ -7,8 +7,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "clean": "rm -rf dist",
-    "prebuild": "yarn clean"
+    "clean": "rm -rf dist"
   },
   "keywords": [
     "forever-message",
