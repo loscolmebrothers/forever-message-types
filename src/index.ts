@@ -41,7 +41,4 @@ export type {
   CreateCommentRequest,
   LikeBottleRequest,
   UnlikeBottleRequest,
-  PaginationParams,
-  BottleFilterParams,
-  CommentFilterParams,
 } from "./api/requests";
