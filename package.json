@@ -1,7 +1,7 @@
 {
   "name": "@loscolmebrothers/forever-message-types",
-  "version": "2.1.0",
-  "description": "Shared TypeScript types and DTOs for the Forever Message ecosystem",
+  "version": "3.0.0",
+  "description": "Shared TypeScript types for Forever Message multi-user platform",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
