@@ -1,4 +1,4 @@
-import type { ContractBottle, ContractComment } from "./contract";
+import type { ContractBottle } from "./contract";
 
 export interface Bottle extends ContractBottle {
   message: string;
@@ -6,12 +6,4 @@ export interface Bottle extends ContractBottle {
   type: "bottle";
   timestamp: number;
   likeCount: number;
-  commentCount: number;
-}
-
-export interface Comment extends ContractComment {
-  message: string;
-  userId: string;
-  type: "comment";
-  timestamp: number;
 }

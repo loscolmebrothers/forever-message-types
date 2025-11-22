@@ -5,19 +5,9 @@ export interface IPFSBottle {
   timestamp: number;
   createdAt: string;
   likeCount?: number;
-  commentCount?: number;
 }
 
-export interface IPFSComment {
-  message: string;
-  type: "comment";
-  bottleId: number;
-  userId: string;
-  timestamp: number;
-  createdAt: string;
-}
-
-export type IPFSItem = IPFSBottle | IPFSComment;
+export type IPFSItem = IPFSBottle;
 
 export interface UploadResult {
   cid: string;
